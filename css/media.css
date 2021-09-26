@@ -1,0 +1,187 @@
+@media(max-width:991px){
+    .btn_join{
+        display: none;
+    }
+    .large_btn_join{
+        display: inherit;
+    }
+}
+
+
+@media(max-width:767px) and (min-width:576px){
+    
+}
+@media(max-width:767px){
+    .top_header{
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+    .iphone6 img{
+        display: none;
+    }
+    .instruction_item{
+        margin: 15px 0px;
+    }
+    .chart-section img {
+        width: 40%;
+    }
+    .blog_content {
+        margin-bottom: 20px;
+    }
+    .quote i {
+       
+        padding: 5px;
+        font-size: 15px;
+    }
+    .feedback_img {
+        width: 30%;
+        
+    }
+    .footer_content p {
+        
+        text-align: center;
+    }
+    .list_ftr ul {
+        
+        justify-content: center;
+        padding: 0px 0px;
+    }
+    .addresss, .call, .web {
+        
+        justify-content: start;
+        
+        
+    }
+    .addresss i, .call i, .web i {
+        
+        margin-top: 25px;
+    }
+
+}
+@media(max-width:575px){
+    
+    .service_item{
+        margin: 15px 0px;
+    }
+    
+    .feature_section h1 {
+        
+        font-size: 22px;
+        text-align: center;
+        
+    }
+    .feature_section ul li {
+        margin: 15px 0px;
+ 
+    }
+
+    .box {
+        width: 45px;
+        height: 45px;
+        margin-left: 10px;
+    }
+    .feature_section span {
+        
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .li_content {
+        width: 84%;
+    }
+    .feature_section ul li h3 {
+        
+        font-size: 20px;
+        
+    }
+    .chart-section img {
+        width: 35%;
+    }
+    .safe {
+        left: 14%;
+        transform: translate(-16%, -10%);
+    }
+    .wallet {
+        left: 18%;
+        bottom: -15px;
+        transform: translate(-18%, -10%);
+    }
+    .safe .icon, .phone .icon, .wallet .icon, .expert .icon, .instant .icon, .recuring .icon {
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    .expert {
+        
+        left: 85%;
+        transform: translate(-85%, -10%);
+    }
+    .recuring {
+        
+        left: 85%;
+        bottom: -15px;
+        transform: translate(-85%, -5%);
+    }
+    .phone {
+        
+        top: 55%;
+        bottom: 110px;
+        
+    }
+    .instant {
+        
+        transform: translate(-85%, -58%);
+        top: 58%;
+        bottom: 95px;
+    }
+    .safe p, .phone p, .wallet p, .expert p, .instant p, .recuring p {
+        font-size: 14px;
+        padding-top: 0px;
+    }
+    
+    .feedback_img {
+        width: 30%;
+        
+    }
+    
+    
+    
+
+    
+}
+    
+
+@media(max-width:375px){
+    .box {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .feature_section ul li h3 {
+        font-size: 18px;
+    }
+    .feature_section h1 {
+        font-size: 19px;
+        text-align: center;
+    }
+    .feature_section ul li p {
+        
+        font-size: 14px;
+    }
+    
+}
+@media(max-width:425px) and (min-width:375px){
+    .quote i {
+        
+        font-size: 20px;
+    }
+}
+@media(max-width:320px){
+    .count_section h2 {
+        
+        font-size: 20px;
+    }
+    
+}
